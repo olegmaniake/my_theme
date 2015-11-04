@@ -1,0 +1,23 @@
+name = My theme
+description = My first custom theme
+core = 7.x
+engine = phptemplate
+base theme = omega
+
+; Regions
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+
+; Plugins
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+stylesheets[all][] = css/style.css
+
